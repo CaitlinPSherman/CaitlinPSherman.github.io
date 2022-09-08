@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bio = () => {
   return (
-    <div className='section'>
+    <div className='section' id='bio'>
       <h2>here's bio page</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac erat

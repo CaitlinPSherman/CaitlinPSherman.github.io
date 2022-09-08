@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='section'>
+    <div>
       <p>designed and built by Caitlin Sherman </p>
     </div>
   );
