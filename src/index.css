@@ -58,6 +58,12 @@ code {
   padding: 1rem;
 }
 
+.project {
+  padding: 2rem;
+}
+.project a {
+  padding-right: 1rem;
+}
 @media screen and (max-width: 600px) {
   .hamburger {
     display: block;
@@ -70,6 +76,7 @@ code {
     width: 100%;
     background-color: #003858;
     display: none;
+    /* transform: translateX(0vw); */
   }
   .nav-links.expanded {
     display: flex;
@@ -83,3 +90,4 @@ code {
     padding: 35vh 20px;
   }
 }
+
