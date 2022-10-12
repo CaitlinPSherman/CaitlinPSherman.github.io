@@ -2,11 +2,15 @@ import React from 'react';
 
 const Proj = ({ projData }) => {
   return (
-    <div className='project'>
+    <div className="project">
       <h3>{projData.name}</h3>
       <p>{projData.description}</p>
-      <a href={projData.url}>Link</a>
-      <a href={projData.github}>Github</a>
+      <a href={projData.url} target="_blank" rel="noreferrer noopener">
+        Link
+      </a>
+      <a href={projData.github} target="_blank" rel="noreferrer noopener">
+        Github
+      </a>
     </div>
   );
 };

@@ -37,7 +37,7 @@ code {
 }
 
 .section {
-  padding: 35vh 25vw;
+  padding: 20vh 25vw;
 }
 
 .nav {
@@ -64,6 +64,17 @@ code {
 .project a {
   padding-right: 1rem;
 }
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+#headshot {
+  height: 200px;
+}
+
 @media screen and (max-width: 600px) {
   .hamburger {
     display: block;

@@ -2,24 +2,29 @@ import React from 'react';
 
 const Bio = () => {
   return (
-    <div className='section' id='bio'>
-      <h2>here's bio page</h2>
+    <div className="section" id="bio">
+      <h2>Bio</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac erat
-        lectus. Mauris id tristique justo. Donec velit dolor, tincidunt sed
-        ullamcorper quis, placerat nec libero. Nullam semper dolor eget massa
-        vulputate, eu consequat felis dignissim. Donec rhoncus, nisi in pretium
-        pellentesque, metus tellus mollis massa, at porttitor odio erat ut
-        purus.
+        I recently graduated from the Grace Hopper program at Fullstack Academy.
+        Before my shift into software engineering, I was an apparel designer for
+        15 years, focused primarily on mass market menswear and print design.
+        When I decided to make a career change last year I originally considered
+        data visualization design but I ended up enjoying the programming part
+        of that so much that I decided to become a software engineer instead!
       </p>
-
       <p>
-        Pellentesque tellus enim, dictum nec laoreet eu, porta vel orci.
-        Suspendisse ultrices diam non venenatis bibendum. Morbi ac mattis enim.
-        Etiam et velit malesuada, convallis elit ut, volutpat lacus. Maecenas
-        sed ante molestie, tincidunt diam at, laoreet massa. Sed mattis suscipit
-        tempor. Donec posuere laoreet ligula id volutpat. Mauris egestas feugiat
-        vehicula. Fusce et scelerisque nulla.
+        My past jobs gave me experience with managing complex projects from
+        conception through delivery, communicating clearly with people from a
+        wide range of backgrounds and across language and timezone barriers, and
+        a desire to use new tools and software to work more efficiently. I enjoy
+        using my creative and problem-solving skills to build beautiful and
+        user-friendly web applications. I am looking forward to becoming a
+        front-end or full stack engineer within a company that is working to
+        make the world a better place.
+      </p>
+      <p>
+        In my spare time I love knitting, hiking, bird-watching, and forgetting
+        mugs of tea around the house.
       </p>
     </div>
   );
