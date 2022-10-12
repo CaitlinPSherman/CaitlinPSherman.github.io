@@ -1,148 +1,110 @@
 import React from 'react';
 
 const Skills = () => {
+  const skills = [
+    {
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
+      alt: 'javascript',
+    },
+    {
+      url: 'https://www.python.org',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
+      alt: 'python',
+    },
+    {
+      url: 'https://reactjs.org/',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
+      alt: 'react',
+    },
+    {
+      url: 'https://redux.js.org',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg',
+      alt: 'redux',
+    },
+    {
+      url: 'https://expressjs.com',
+      img: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/express_original_wordmark_logo_icon_146528.png',
+      alt: 'express',
+    },
+    {
+      url: 'https://nodejs.org',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
+      alt: 'nodejs',
+    },
+    {
+      url: 'https://www.mysql.com/',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
+      alt: 'mysql',
+    },
+    {
+      url: 'https://www.postgresql.org',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg',
+      alt: 'postgresql',
+    },
+    {
+      url: 'https://webpack.js.org',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg',
+      alt: 'webpack',
+    },
+    {
+      url: 'https://www.w3schools.com/css/',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg',
+      alt: 'css3',
+    },
+    {
+      url: 'https://www.w3.org/html/',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg',
+      alt: 'html5',
+    },
+    {
+      url: 'https://git-scm.com/',
+      img: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg',
+      alt: 'git',
+    },
+    {
+      url: 'https://postman.com',
+      img: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
+      alt: 'postman',
+    },
+    {
+      url: 'https://jasmine.github.io/',
+      img: 'https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg',
+      alt: 'jasmine',
+    },
+    {
+      url: 'https://mochajs.org',
+      img: 'https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg',
+      alt: 'mocha',
+    },
+    {
+      url: 'https://www.figma.com/',
+      img: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg',
+      alt: 'figma',
+    },
+    {
+      url: 'https://www.adobe.com/in/products/illustrator.html',
+      img: 'https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg',
+      alt: 'illustrator',
+    },
+    {
+      url: 'https://www.photoshop.com/en',
+      img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg',
+      alt: 'photoshop',
+    },
+  ];
+
   return (
     <div className="section" id="skills">
       <h2>Skills</h2>
       <div className="skills-container">
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-            alt="javascript"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://www.python.org" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-            alt="python"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-            alt="react"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://redux.js.org" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
-            alt="redux"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-          <img
-            src="https://cdn.icon-icons.com/icons2/2415/PNG/512/express_original_wordmark_logo_icon_146528.png"
-            alt="express"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-            alt="nodejs"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-            alt="mysql"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
-            alt="postgresql"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://webpack.js.org" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
-            alt="webpack"
-            className="skill-icon"
-          />
-        </a>
-        <a
-          href="https://www.w3schools.com/css/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-            alt="css3"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-            alt="html5"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-          <img
-            src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-            alt="git"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://postman.com" target="_blank" rel="noreferrer">
-          <img
-            src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-            alt="postman"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://jasmine.github.io/" target="_blank" rel="noreferrer">
-          <img
-            src="https://www.vectorlogo.zone/logos/jasmine/jasmine-icon.svg"
-            alt="jasmine"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://mochajs.org" target="_blank" rel="noreferrer">
-          <img
-            src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg"
-            alt="mocha"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-          <img
-            src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
-            alt="figma"
-            className="skill-icon"
-          />
-        </a>
-        <a
-          href="https://www.adobe.com/in/products/illustrator.html"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"
-            alt="illustrator"
-            className="skill-icon"
-          />
-        </a>
-        <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
-            alt="photoshop"
-            className="skill-icon"
-          />
-        </a>
+        {skills.map((skill) => {
+          return (
+            <a href={skill.url} target="_blank" rel="noreferrer">
+              <img src={skill.img} alt={skill.alt} className="skill-icon" />
+            </a>
+          );
+        })}
       </div>
     </div>
   );

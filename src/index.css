@@ -12,6 +12,7 @@ body {
 h2 {
   color: #ff861c;
 }
+
 a {
   color: #e91e63;
   text-decoration: none;
@@ -19,9 +20,8 @@ a {
   font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style-type: none;
 }
 
 .hamburger {
@@ -65,14 +65,32 @@ code {
   padding-right: 1rem;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
 .skill-icon {
   width: 60px;
   height: 60px;
+  padding: 8px;
+}
+
+.contact-icon {
+  margin: 20px;
   padding: 5px;
+  fill: #e91e63;
+}
+
+.footer {
+  text-align: center;
+  margin: 34vh 0 0 0;
 }
 
 #headshot {
   height: 200px;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -98,7 +116,7 @@ code {
     text-align: right;
   }
   .section {
-    padding: 35vh 20px;
+    padding: 20vh 20px;
   }
 }
 
