@@ -3,16 +3,16 @@ import React from 'react';
 const Skills = () => {
   return (
     <div className='section' id='skills'>
-      <h2>here's Skills</h2>
+      <h2>Skills</h2>
       <ul>
-        <li>lorem ispum</li>
-        <li>lorem ispum</li>
-        <li>lorem ispum</li>
-        <li>lorem ispum</li>
-        <li>lorem ispum</li>
-        <li>lorem ispum</li>
-        <li>lorem ispum</li>
-        <li>lorem ispum</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>PostgreSQL</li>
+        <li>HTML/CSS</li>
+        <li>Adobe Creative Suite</li>
       </ul>
     </div>
   );
