@@ -68,7 +68,7 @@ ul {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center
+  justify-content: center;
 }
 
 .skill-icon {
@@ -78,19 +78,32 @@ ul {
 }
 
 .contact-icon {
-  margin: 20px;
+  margin-right: 20px;
   padding: 5px;
   fill: #e91e63;
 }
 
-.footer {
-  text-align: center;
-  margin: 34vh 0 0 0;
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
 }
 
-#headshot {
+.footer {
+  text-align: center;
+  font-size: x-small;
+  margin-top: 10vh;
+}
+.headshot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.headshot {
   height: 200px;
-  margin-left: auto;
+  width: 200px;
+  border-radius: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -119,4 +132,3 @@ ul {
     padding: 20vh 20px;
   }
 }
-
