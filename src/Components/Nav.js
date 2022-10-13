@@ -25,7 +25,7 @@ const Nav = () => {
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
-          stroke="#e91e63"
+          stroke="#e07a5f"
           className="w-6 h-6"
         >
           <path
