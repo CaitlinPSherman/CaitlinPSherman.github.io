@@ -110,8 +110,8 @@ ul {
   align-items: center;
 }
 .headshot {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 100%;
 }
 
@@ -152,5 +152,9 @@ ul {
   }
   .section {
     padding: 20vh 20px;
+  }
+  .headshot {
+    height: 200px;
+    width: 200px;
   }
 }
