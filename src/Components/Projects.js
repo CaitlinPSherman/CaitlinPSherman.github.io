@@ -32,7 +32,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="section" id="projects">
+    <div className="section section-dark" id="projects" >
       <h2>Projects</h2>
       {projects.map((proj, index) => (
         <Proj key={index} projData={proj} />

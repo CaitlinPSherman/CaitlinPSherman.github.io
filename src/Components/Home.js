@@ -3,7 +3,7 @@ import headshot from '../app/images/Caitlin_pic.jpg';
 
 const Home = () => {
   return (
-    <div className="section" id="home">
+    <div id="home" className='section-dark'>
       <div className="headshot-container">
         <img src={headshot} alt="headshot" className="headshot" />
       </div>

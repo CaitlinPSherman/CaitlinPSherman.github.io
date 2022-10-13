@@ -66,7 +66,7 @@ const Contact = () => {
   //{name: '', url: '', svg: ()}
 
   return (
-    <div className="section" id="contact">
+    <div className="section section-dark" id="contact">
       <h2>Get in touch!</h2>
       <div className="contact-container">
         {contact.map((c, index) => {
