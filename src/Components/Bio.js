@@ -23,8 +23,8 @@ const Bio = () => {
         make the world a better place.
       </p>
       <p>
-        In my spare time I love knitting, hiking, bird-watching, and forgetting
-        mugs of tea around the house.
+        In my spare time I love knitting, hiking, bird-watching, spoiling my two
+        cats, and forgetting mugs of tea around the house.
       </p>
     </div>
   );

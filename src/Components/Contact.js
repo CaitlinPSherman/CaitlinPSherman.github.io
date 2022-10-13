@@ -69,9 +69,9 @@ const Contact = () => {
     <div className="section" id="contact">
       <h2>Get in touch!</h2>
       <div className="contact-container">
-        {contact.map((c) => {
+        {contact.map((c, index) => {
           return (
-            <div className="contact-item">
+            <div className="contact-item" key={index}>
               <a href={c.url} target="_blank" rel="noreferrer noopener">
                 {c.svg}
               </a>

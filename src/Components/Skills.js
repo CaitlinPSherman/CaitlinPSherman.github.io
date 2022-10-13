@@ -98,9 +98,9 @@ const Skills = () => {
     <div className="section" id="skills">
       <h2>Skills</h2>
       <div className="skills-container">
-        {skills.map((skill) => {
+        {skills.map((skill, index) => {
           return (
-            <a href={skill.url} target="_blank" rel="noreferrer">
+            <a href={skill.url} key={index} target="_blank" rel="noreferrer">
               <img src={skill.img} alt={skill.alt} className="skill-icon" />
             </a>
           );
