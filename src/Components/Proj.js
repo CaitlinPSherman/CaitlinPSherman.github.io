@@ -4,6 +4,9 @@ const Proj = ({ projData }) => {
   return (
     <div className="project">
       <h3>{projData.name}</h3>
+      <div className="proj-img-container">
+        <img src={projData.img} alt="website screenshot" className="proj-img" />
+      </div>
       <p>{projData.description}</p>
       <a href={projData.url} target="_blank" rel="noreferrer noopener">
         Link
