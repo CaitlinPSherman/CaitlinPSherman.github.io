@@ -1,4 +1,5 @@
 import React from 'react';
+import logoExpress from '../app/images/logo_express.png';
 
 const Skills = () => {
   const skills = [
@@ -24,7 +25,7 @@ const Skills = () => {
     },
     {
       url: 'https://expressjs.com',
-      img: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/express_original_wordmark_logo_icon_146528.png',
+      img: logoExpress,
       alt: 'express',
     },
     {
