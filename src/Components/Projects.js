@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       name: 'Creature Coders',
-      url: 'https://creature-coders.herokuapp.com/',
+      url: 'https://creature-coders.onrender.com/',
       github: 'https://github.com/pigeon-programmers/creature-coders-web',
       description:
         'A learn-to-code game designed for the iPad. Learn the basics of programming concepts and Javascript fundamentals while you collect fun hats for your garbage animal friends.',
@@ -17,7 +17,7 @@ const Projects = () => {
     },
     {
       name: "Bell's Custom Worx",
-      url: 'https://bells-custom-worx.herokuapp.com/',
+      url: 'https://bells-custom-worx.onrender.com/',
       github: 'https://github.com/GH2202-Team-Worx/Worx',
       description: 'An ecom site for a family-owned woodworking business.',
       img: proj03,
@@ -32,7 +32,7 @@ const Projects = () => {
     },
     {
       name: "Caitlin's Portfolio",
-      url: 'caitlinpsherman.com',
+      url: 'https://caitlinpsherman.github.io/',
       github: 'https://github.com/CaitlinPSherman/portfolio',
       description:
         "The website you're looking at right now! My personal portfolio, to show off the various projects I've made.",
