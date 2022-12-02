@@ -24,7 +24,7 @@ const Projects = () => {
     },
     {
       name: 'Pictures Drawn Poorly',
-      url: 'https://pictures-drawn-poorly.herokuapp.com/',
+      url: 'https://github.com/CaitlinPSherman/stackathon',
       github: 'https://github.com/CaitlinPSherman/stackathon',
       description:
         'A game to make confusingly-bad drawings with your friends. Still a work in progress!',
