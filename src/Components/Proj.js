@@ -8,9 +8,13 @@ const Proj = ({ projData }) => {
         <img src={projData.img} alt="website screenshot" className="proj-img" />
       </div>
       <p>{projData.description}</p>
-      <a href={projData.url} target="_blank" rel="noreferrer noopener">
+
+      {projData.name === 'Pictures Drawn Poorly' ?
+      (<></>) :
+      (<a href={projData.url} target="_blank" rel="noreferrer noopener">
         Link
-      </a>
+      </a>)}
+
       <a href={projData.github} target="_blank" rel="noreferrer noopener">
         Github
       </a>

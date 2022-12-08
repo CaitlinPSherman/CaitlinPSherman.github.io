@@ -1,4 +1,3 @@
-import React from 'react';
 import Proj from './Proj';
 import proj01 from '../app/images/proj01.png';
 import proj02 from '../app/images/proj02.png';
