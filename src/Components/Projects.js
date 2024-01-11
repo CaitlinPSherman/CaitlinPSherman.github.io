@@ -16,7 +16,7 @@ const Projects = () => {
     },
     {
       name: "Bell's Custom Worx",
-      url: 'https://bells-custom-worx.onrender.com/',
+      url: 'https://github.com/GH2202-Team-Worx/Worx',
       github: 'https://github.com/GH2202-Team-Worx/Worx',
       description: 'An ecom site for a family-owned woodworking business.',
       img: proj03,
