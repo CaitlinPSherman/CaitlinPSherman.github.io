@@ -9,7 +9,7 @@ const Proj = ({ projData }) => {
       </div>
       <p>{projData.description}</p>
 
-      {projData.url === projData.github ?
+      {projData.url === '' ?
       (<></>) :
       (<a href={projData.url} target="_blank" rel="noreferrer noopener">
         Link

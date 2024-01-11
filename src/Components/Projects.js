@@ -16,14 +16,14 @@ const Projects = () => {
     },
     {
       name: "Bell's Custom Worx",
-      url: 'https://github.com/GH2202-Team-Worx/Worx',
+      url: '',
       github: 'https://github.com/GH2202-Team-Worx/Worx',
       description: 'An ecom site for a family-owned woodworking business.',
       img: proj03,
     },
     {
       name: 'Pictures Drawn Poorly',
-      url: 'https://github.com/CaitlinPSherman/stackathon',
+      url: '',
       github: 'https://github.com/CaitlinPSherman/stackathon',
       description:
         'A game to make confusingly-bad drawings with your friends. Still a work in progress!',
