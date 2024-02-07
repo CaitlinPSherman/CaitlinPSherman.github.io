@@ -49,7 +49,7 @@ const Contact = () => {
     },
     {
       name: 'Resume',
-      url: 'https://docs.google.com/document/d/13ATVdZlTHTX4i5DFH5TsONeAJCkPt5ke0XY5Ex0Kr0g/edit?usp=sharing',
+      url: 'https://docs.google.com/document/d/1f60IysLMYtCfa05pP_ocKoqOZCb4Z40AnE4LmZwBr7A/edit?usp=sharing',
       svg: (
         <svg
           className="contact-icon"
